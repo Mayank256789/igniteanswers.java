@@ -1,5 +1,11 @@
+import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.HashSet;
+import java.util.Scanner;
+
 public class Mymain {
-    public static void main(String[] args){
+   public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
         /*Task1 task1 = new Task1();
         Task2 task2 = new Task2();
         Thread t1 = new Thread (task1);
@@ -67,8 +73,39 @@ public class Mymain {
        t2.start();
        t2.setPriority(Thread.MAX_PRIORITY);
        System.out.println(t2.getState());*/
-       Date date = new Date();
-       date.time();
+      /* Date date = new Date();
+       date.time();*/
+        /*System.out.println("Enter a number");
+        int N = sc.nextInt();
+        ArrayLists2 list = new ArrayLists2();
+        list.pass(N);*/
+      /* HashSet<Integer> s = new HashSet<>();
+        s.add(1);
+        s.add(2);
+        s.add(3);
+        s.add(3);
+        s.add(4);
+        s.add(5);
+        System.out.println(s);
+        Calendar c = Calendar.getInstance();
+        System.out.println("current year is:" + c.get(Calendar.YEAR));
+        System.out.println("current month is:" + c.get(Calendar.MONTH));
+        System.out.println("current day is:" + c.get(Calendar.DAY_OF_WEEK));
+        System.out.println("current hour is:" + c.get(Calendar.HOUR_OF_DAY));
+        System.out.println("current minute is:" + c.get(Calendar.MINUTE));
+        System.out.println("current second is:" + c.get(Calendar.SECOND));
+
+        System.out.println("current date is:" + c.getTime());
+        c.add(Calendar.YEAR,4);
+        System.out.println("After 4 year is:" + c.getTime());
+        c.add(Calendar.YEAR,-12);
+        System.out.println("Before 12 year is:" + c.getTime());
+        c.add(Calendar.MONTH,2);
+        System.out.println("After 2 month is:" + c.getTime());*/
+     Date1 date1 = new Date1();
+     date1.time();
+
+
 
 
 

@@ -8,7 +8,7 @@ public class Date {
         System.out.println(now);
         DateTimeFormatter formatter = DateTimeFormatter.ISO_LOCAL_DATE;
         DateTimeFormatter formatter2 = DateTimeFormatter.ISO_LOCAL_TIME;
-        DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("dd-MM-yyyy");
+        DateTimeFormatter formatter3 = DateTimeFormatter.ofPattern("YYYY-MM-DD");
         //System.out.println(formatter);
         String myDate = now.format(formatter);
         String myTime = now.format(formatter2);
@@ -16,5 +16,9 @@ public class Date {
         System.out.println(myDate);
         System.out.println(myTime);
         System.out.println(myTime1);
+        DateTimeFormatter formater4 = DateTimeFormatter.ofPattern("HH:MM:SS");
+        String myTime2 = now.format(formater4);
+        System.out.println(myTime2);
+
     }
 }
