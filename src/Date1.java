@@ -5,6 +5,11 @@ import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 
 public class Date1 {
+    /*
+
+
+
+     */
     public void time(){
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter year:");
